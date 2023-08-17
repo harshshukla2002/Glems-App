@@ -1,0 +1,32 @@
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .new-collection-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .best-seller-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  .new-collection-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .best-seller-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .consultant-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

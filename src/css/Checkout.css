@@ -1,0 +1,9 @@
+@media screen and (max-width: 800px) {
+  .address-wrapper {
+    width: 100%;
+  }
+
+  .payment-div {
+    width: 100%;
+  }
+}

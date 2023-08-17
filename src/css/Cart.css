@@ -1,0 +1,15 @@
+@media screen and (max-width: 800px) {
+  .cart-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cart-wrapper > img {
+    width: 50%;
+  }
+
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
