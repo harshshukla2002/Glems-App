@@ -59,6 +59,7 @@
 - Chakra Ui
 - TailwindCSS
 - antUI
+- Redux
 - JSX
 - CSS
 - Git & GitHub
