@@ -19,7 +19,7 @@ const JwellerySinglePage = () => {
 
   const AddToCart = () => {
     axios
-      .post("https://red-dull-salamander.cyclic.app/cart", product)
+      .post("https://dull-erin-buffalo-vest.cyclic.cloud/cart", product)
       .then(() => {
         openNotificationWithIcon("success");
       })
@@ -31,7 +31,7 @@ const JwellerySinglePage = () => {
   const GetData = async () => {
     try {
       const res = await axios.get(
-        `https://red-dull-salamander.cyclic.app/jewellery/${id}`
+        `https://dull-erin-buffalo-vest.cyclic.cloud/jewellery/${id}`
       );
       setProduct(res.data);
     } catch (error) {

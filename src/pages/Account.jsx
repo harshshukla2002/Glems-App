@@ -48,7 +48,7 @@ const Account = () => {
   const SearchUser = async () => {
     try {
       const res = await axios.get(
-        "https://red-dull-salamander.cyclic.app/user"
+        "https://dull-erin-buffalo-vest.cyclic.cloud/user"
       );
       const data = res.data;
       let find = false;

@@ -44,7 +44,7 @@ const Signup = () => {
   const PostUser = async () => {
     try {
       axios
-        .post("https://red-dull-salamander.cyclic.app/user", signup)
+        .post("https://dull-erin-buffalo-vest.cyclic.cloud/user", signup)
         .then(() => {
           Message("success", "Signup Successfull, please login now");
           setSignup(InitialSignup);

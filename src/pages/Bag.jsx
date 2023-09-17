@@ -25,7 +25,7 @@ const Bag = () => {
   const getCartData = async () => {
     try {
       const res = await axios.get(
-        "https://red-dull-salamander.cyclic.app/cart"
+        "https://dull-erin-buffalo-vest.cyclic.cloud/cart"
       );
       setCart(res.data);
     } catch (error) {
@@ -41,7 +41,7 @@ const Bag = () => {
 
   const Delete = (id) => {
     axios
-      .delete(`https://red-dull-salamander.cyclic.app/cart/${id}`)
+      .delete(`https://dull-erin-buffalo-vest.cyclic.cloud/cart/${id}`)
       .then(() => {
         openNotificationWithIcon("success", "Deleted");
         getCartData();
